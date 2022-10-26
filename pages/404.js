@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 
@@ -8,7 +8,7 @@ function NotFound() {
     setTimeout(() => {
       router.push("/");
     }, 3000);
-  }, []);
+  }, [router]);
   return (
     <div className="flex flex-col items-center py-60 gap-y-8">
       <h1 className="font-bold text-2xl">Ooooopps...</h1>

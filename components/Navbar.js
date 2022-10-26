@@ -1,6 +1,6 @@
 import React from "react";
-import Link from "next/Link";
-import Image from "next/Image";
+import Link from "next/link";
+import Image from "next/image";
 
 function Navbar() {
   return (
@@ -10,8 +10,7 @@ function Navbar() {
         {/* <img src="/logo.png" /> */}
         <Link href="/">
           <a>
-            {" "}
-            <Image src={"/logo.png"} width="40" height="40" />
+            <Image src={"/logo.png"} width="40" height="40" alt="" />
           </a>
         </Link>
       </div>

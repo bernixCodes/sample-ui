@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Link from "next/Link";
+import Link from "next/link";
 
 export const getStaticProps = async () => {
   const result = await fetch("https://jsonplaceholder.typicode.com/users");
