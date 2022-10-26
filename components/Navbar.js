@@ -8,7 +8,12 @@ function Navbar() {
       <div>
         {/* <h1 className="font-bold text-xl">My List</h1> */}
         {/* <img src="/logo.png" /> */}
-        <Image src={"/logo.png"} width="40" height="40" />
+        <Link href="/">
+          <a>
+            {" "}
+            <Image src={"/logo.png"} width="40" height="40" />
+          </a>
+        </Link>
       </div>
       <div className=" flex gap-10 items-center justify-end">
         <Link href={"/"}>
